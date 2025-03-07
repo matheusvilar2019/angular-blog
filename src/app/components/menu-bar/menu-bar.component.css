@@ -2,6 +2,16 @@
     background-color: #527789;
     padding: 20px 18px 20px 18px;
     border-radius: 0px 0px 5px 5px;
+
+    display: flex;
+    gap: 900px;
+}
+
+.container__menu-bar > a {
+    display: inline;
+    margin: 0 0 0 16%;
+    color: white;
+    font-weight: bold;
 }
 
 .container__menu-bar > ul{

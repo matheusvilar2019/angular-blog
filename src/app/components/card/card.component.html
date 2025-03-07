@@ -1,7 +1,7 @@
 <div class="container__card">
     <div class="card__photo">
         <img 
-          src="https://t4.ftcdn.net/jpg/05/17/53/57/360_F_517535712_q7f9QC9X6TQxWi6xYZZbMmw5cnLMr279.jpg"
+          src= "{{ photoCover }}"
           alt=""
           height="200px"
           srcset=""
@@ -9,12 +9,11 @@
 
     </div>
     <div class="card__title">
-        <h1><a href="#">Saiu a nova versão do angular</a></h1>        
+        <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>        
     </div>
     <div class="card__description">
         <p>
-            <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at feugiat nunc, laoreet molestie sapien. 
-            </a>
+            <a [routerLink]="['content', id]">{{ cardDescription }}</a>
         </p>        
     </div>
 </div>
