@@ -1,0 +1,11 @@
+.container__menu-title {
+    margin-left: 30px;
+}
+
+.container__menu-title > h1 {
+    margin: 15px 0 15px 0;
+    font-size: 28px;
+}
+.container__menu-title > p {
+    color: gray;
+}

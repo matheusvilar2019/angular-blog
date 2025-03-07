@@ -1,0 +1,23 @@
+.container__menu-bar {
+    background-color: #527789;
+    padding: 20px 18px 20px 18px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.container__menu-bar > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.container__menu-bar > ul > li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.container__menu-bar > ul > li > a {
+    color: white;
+}
+
+.container__menu-bar > ul > li > span {
+    color: white;
+}
